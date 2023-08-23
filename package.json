@@ -2,9 +2,11 @@
   "name": "finaldrillingmodule7",
   "version": "1.0.0",
   "description": "Ejercicio final de Módulo 7",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,9 @@
   },
   "homepage": "https://github.com/RomiErased/FinalDrillingModule7#readme",
   "dependencies": {
-    "pg": "^8.11.3"
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
