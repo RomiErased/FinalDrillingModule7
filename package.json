@@ -1,0 +1,26 @@
+{
+  "name": "finaldrillingmodule7",
+  "version": "1.0.0",
+  "description": "Ejercicio final de Módulo 7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomiErased/FinalDrillingModule7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomiErased/FinalDrillingModule7/issues"
+  },
+  "homepage": "https://github.com/RomiErased/FinalDrillingModule7#readme",
+  "dependencies": {
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
